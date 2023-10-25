@@ -33,3 +33,22 @@
 - **Caching response** : tương tự forward proxy, khi có request đến có thể response lại luôn mà không cần gửi request đến server.
 - **Port Forwarding** : Tiếp nhận request đến 1 IP duy nhất sau đó điều hướng đến đúng server chứa tài nguyên mà client đang request.
 - **HTTPS** : Tạo cert SSL cho các web server thiếu xác thực, mã hóa kết nối giữa client và reverse proxy bằng TLS.
+
+
+## Lab cấu hình Nginx Reverse Proxy và Squid Forward Proxy
+
+- Tài liệu này sẽ hướng dẫn config các chức năng cơ bản của proxy như :
+    - Nginx reverse proxy :
+        - Proxy pass forward port.
+        - Load balancing web server.
+        - HTTPS.
+    - Squid forward proxy :
+        - Anonymous Client.
+        - Allow/Deny request.
+        - Log/Monitor request.
+
+- Mô hình tổng thể :
+
+    ![a](https://imgur.com/9Hqmmym.png)
+
+- Toàn bộ thiết bị trên bài lab sử dụng Ubuntu 20.04/22.04.
