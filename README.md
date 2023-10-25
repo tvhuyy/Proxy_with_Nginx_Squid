@@ -59,8 +59,9 @@
     - Client truy cập được website thông qua Squid Proxy.
     - Cho phép Client truy cập đến `web.com/host81` và từ chối truy cập đến `web.com/host82`.
     - Proxy theo dõi được client nào truy cập đến đâu.
-    
+
 - Toàn bộ thiết bị trên bài lab sử dụng Ubuntu 20.04/22.04.
 - Docs Lab các thành phần :
 
 1. [Config Apache2](./Docs%20Lab/Config_Apache2.md)
+2. [Config Nginx Proxy](./Docs%20Lab/Config_Nginx_Proxy.md)
