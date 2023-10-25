@@ -52,3 +52,6 @@
     ![a](https://imgur.com/9Hqmmym.png)
 
 - Toàn bộ thiết bị trên bài lab sử dụng Ubuntu 20.04/22.04.
+- Docs Lab các thành phần :
+
+1. [Config Apache2](./Docs%20Lab/Config_Apache2.md)
