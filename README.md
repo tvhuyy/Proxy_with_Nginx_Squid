@@ -51,6 +51,15 @@
 
     ![a](https://imgur.com/9Hqmmym.png)
 
+- Với mô hình trên ta sẽ hoàn thành các yêu cầu :
+    - Truy cập `web.com/host81` -> nội dung trên Apache server port 81.
+    - Truy cập `web.com/host82` -> nội dung trên Apache server port 82.
+    - Các lượt truy cập sẽ được đẩy luân phiên giữa 2 node Apache server 1 và 2.
+    - Chuyển hướng truy cập của client từ http sang https.
+    - Client truy cập được website thông qua Squid Proxy.
+    - Cho phép Client truy cập đến `web.com/host81` và từ chối truy cập đến `web.com/host82`.
+    - Proxy theo dõi được client nào truy cập đến đâu.
+    
 - Toàn bộ thiết bị trên bài lab sử dụng Ubuntu 20.04/22.04.
 - Docs Lab các thành phần :
 
