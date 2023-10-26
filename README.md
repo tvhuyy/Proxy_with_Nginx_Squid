@@ -57,7 +57,7 @@
     - Các lượt truy cập sẽ được đẩy luân phiên giữa 2 node Apache server 1 và 2.
     - Chuyển hướng truy cập của client từ http sang https.
     - Client truy cập được website thông qua Squid Proxy.
-    - Cho phép Client truy cập đến `web.com/host81` và từ chối truy cập đến `web.com/host82`.
+    - Cho phép Client truy cập đến `youtube.com` và từ chối truy cập đến `web.com/host82`.
     - Proxy theo dõi được client nào truy cập đến đâu.
 
 - Toàn bộ thiết bị trên bài lab sử dụng Ubuntu 20.04/22.04.
@@ -65,3 +65,4 @@
 
 1. [Config Apache2](./Docs%20Lab/Config_Apache2.md)
 2. [Config Nginx Proxy](./Docs%20Lab/Config_Nginx_Proxy.md)
+3. [Config Squid Proxy](./Docs%20Lab/Config_Squid_Proxy.md)
